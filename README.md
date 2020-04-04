@@ -3,4 +3,7 @@
 [Home](https://github.com/aronnebrivio/dotfiles-local/tree/master) / abo
 
 ## Content
-*No content yet.*
+Local configurations for:
+- [fish shell](https://fishshell.com/)
+  - additional functions
+
