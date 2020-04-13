@@ -18,7 +18,8 @@
       "~/.config/fish/local.fish": "config/fish/local.fish",
       "~/.config/fish/env/local.fish": "config/fish/env/local.fish",
       "~/.config/fish/aliases/local.fish": "config/fish/aliases/local.fish",
-      "~/.gitconfig_local": "gitconfig_local"
+      "~/.gitconfig_local": "gitconfig_local",
+      "~/.termux": "termux"
     }
   },
   {
