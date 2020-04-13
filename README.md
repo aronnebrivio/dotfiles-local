@@ -12,6 +12,7 @@ Configurations for specific PCs/OSs are maintained in separate branches:
 
 - master
   - [abo](https://github.com/aronnebrivio/dotfiles-local/tree/abo)
+  - [android-termux](https://github.com/aronnebrivio/dotfiles-local/tree/android-termux)
   - [company-mbp](https://github.com/aronnebrivio/dotfiles-local/tree/company-mbp)
 
 **NOTE:** *"Abo"* stands for *"Abominio Traballante"* (= wobbly abomination). It's my beloved personal XPS-13 currently running [Elementary OS](https://elementary.io/) ❤️
