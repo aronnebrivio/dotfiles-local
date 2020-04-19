@@ -3,6 +3,15 @@
 #
 ### FUNCTIONS
 #
+# apt -> apt-fast if present
+function apt
+    if type -q apt-fast
+        apt-fast $argv
+    else
+        /usr/bin/apt $argv
+    end
+end
+
 # Upgrade and clean system with APT
 function aptRoutine
 	sudo apt update 2>/dev/null
