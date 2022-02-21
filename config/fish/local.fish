@@ -1,7 +1,6 @@
 #!/usr/bin/env fish
 
 fish_add_path /opt/homebrew/bin
-fish_add_path /usr/local/homebrew/bin
 
 # Pyenv
 set -gx PYENV_ROOT $HOME/.pyenv
@@ -20,12 +19,4 @@ function brewRoutine
     brew upgrade --cask
     brew cleanup
     brew doctor
-end
-
-function ibrewRoutine
-    ibrew update
-    ibrew upgrade
-    ibrew upgrade --cask
-    ibrew cleanup
-    ibrew doctor
 end
