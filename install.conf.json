@@ -1,4 +1,5 @@
-[{
+[
+  {
     "defaults": {
       "link": {
         "create": true,
@@ -18,14 +19,15 @@
       "~/.config/fish/local.fish": "config/fish/local.fish",
       "~/.config/fish/env/local.fish": "config/fish/env/local.fish",
       "~/.config/fish/aliases/local.fish": "config/fish/aliases/local.fish",
-      "~/.config/fusuma": "config/fusuma",
       "~/.gitconfig_local": "gitconfig_local"
     }
   },
   {
-    "shell": [{
-      "command": "git submodule update --init --recursive",
-      "description": "Installing/updating submodules"
-    }]
+    "shell": [
+      {
+        "command": "git submodule update --init --recursive",
+        "description": "Installing/updating submodules"
+      }
+    ]
   }
 ]
