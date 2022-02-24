@@ -19,3 +19,12 @@ function aptRoutine
 	sudo apt autoremove -y
 	sudo apt autoclean
 end
+
+# bat -> batcat if present
+function bat
+    if type -q batcat
+        batcat $argv
+    else
+        /usr/bin/bat $argv
+    end
+end
