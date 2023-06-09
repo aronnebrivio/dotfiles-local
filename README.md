@@ -1,4 +1,6 @@
 # 🏠 Local dotfiles
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faronnebrivio%2Fdotfiles-local.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faronnebrivio%2Fdotfiles-local?ref=badge_shield)
+
 
 This repository contains computer specific configuration to accompany my [dotfiles](https://github.com/aronnebrivio/dotfiles).
 
@@ -21,3 +23,6 @@ Configurations for specific PCs/OSs are maintained in separate branches:
 # License
 
 Copyright (c) 2020 Aronne Brivio. Released under the MIT License. See [LICENSE](https://github.com/aronnebrivio/dotfiles-local/blob/master/LICENSE) for details.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faronnebrivio%2Fdotfiles-local.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faronnebrivio%2Fdotfiles-local?ref=badge_large)
